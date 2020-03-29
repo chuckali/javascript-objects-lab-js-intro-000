@@ -7,7 +7,7 @@ var newObj = Object.assign({},object, {[key] : value})
 function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
   //var newObj = Object.assign({},object)
 Object.assign(object, {[key] : value})
-    return 
+    return
 }
 
 
